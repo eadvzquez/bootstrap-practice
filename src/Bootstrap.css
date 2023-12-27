@@ -1,0 +1,26 @@
+/* 
+EXAMPLES FOR CSS VARIABLES
+
+:root {
+    --primary-color: #9b59b6;;
+    --secondary-color: #2ecc71;
+    --font-size: 16px;
+}
+
+body {
+    background-color: var(--primary-color, #3498db);
+    font-size: var(--font-size, 16px);
+}
+
+button {
+    background-color: var(--secondary-color);
+    font-size: var(--font-size);
+}
+
+*/
+
+div {
+    height: 200px;
+    width: 200px;
+    background: var(--bs-blue);
+}
